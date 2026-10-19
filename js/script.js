@@ -10,7 +10,7 @@ Array.prototype.forEach.call(document.querySelectorAll("[data-wa]"),function(a){
 
 /* ----- données ----- */
 var S=[
-{t:"Aménagement foncier",s:"Découpage des parcelles, voies d’accès, réseaux et espaces verts",img:"foncier",a:"Ingénieur de chantier devant des travaux d’aménagement",
+{t:"Aménagement foncier",s:"Découpage des parcelles, voies d’accès, réseaux et espaces verts",img:"foncier",a:"Vue aérienne d’un aménagement foncier : lots, voies d’accès et espaces verts",
 p:["Vous avez un terrain et souhaitez en faire un projet structuré, accessible et valorisé ? CTBAT.CI vous accompagne dans la conception et la réalisation de votre projet d’aménagement foncier.","Nous vous proposons notamment l’organisation et le découpage des parcelles, l’aménagement des voies d’accès, la planification des espaces réservés aux équipements et services, ainsi que l’organisation des réseaux et des espaces verts."],
 o:["De l’étude de votre terrain à la mise en œuvre du projet, nous mettons notre expertise technique et foncière à votre service pour vous accompagner dans la réalisation d’un aménagement cohérent et adapté à vos objectifs."]},
 {t:"Promotion immobilière",s:"De l’acquisition du terrain à la livraison, clé en main",img:"promotion",a:"Remise des clés d’une maison",
@@ -40,7 +40,6 @@ p:["Pour la réalisation de vos travaux de topographie, disposer d’un matérie
 l:[["Vente d’équipements","GPS RTK, stations totales, niveaux et accessoires topographiques"],["Location de matériel","solutions flexibles pour vos missions ponctuelles ou de courte durée"],["Conseil technique","accompagnement dans le choix du matériel adapté à votre projet"],["Formation à l’utilisation","initiation à la prise en main des appareils pour un usage optimal"],["Service après-vente","maintenance et assistance technique sur les équipements"]]}
 ];
 var AFF=[
-{s:"img/affiche-poignee.webp",a:"Affiche CTBAT.CI : Votre terrain, notre expertise",c:"Votre terrain, notre expertise"},
 {s:"img/affiche-terrain.webp",a:"Affiche CTBAT.CI : Votre terrain, notre expertise — topographie, lotissement, bâtiments, plans",c:"Topographie · Lotissement · Bâtiments · Plans"}
 ];
 var GAL=[
@@ -50,7 +49,7 @@ var GAL=[
 {s:"img/exterieur.webp",a:"Vue extérieure des abords de l’agence",c:"Vue extérieure",w:1}
 ];
 var MAP=[{s:"img/carte.webp",a:"Carte de Djébonoua indiquant la position de CTBAT.CI",c:"CTBAT.CI — Djébonoua"}];
-var MN=[["Accueil","#top","home"],["Services","#services","services"],["Affiches","#affiches","affiches"],["Méthode","#methode","methode"],["Galerie","#galerie","galerie"],["Localisation","#localisation","localisation"]];
+var MN=[["Accueil","#top","home"],["Services","#services","services"],["Expertise","#affiches","affiches"],["Méthode","#methode","methode"],["Galerie","#galerie","galerie"],["Localisation","#localisation","localisation"]];
 var ARW='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 
 /* ----- rendu ----- */

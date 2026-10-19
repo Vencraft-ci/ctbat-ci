@@ -51,7 +51,7 @@ button{font:inherit;color:inherit;cursor:pointer;-webkit-tap-highlight-color:tra
 
 /* ---------- accueil (inchangé) ---------- */
 .hero{position:relative;background:#0B1B33;color:#fff;min-height:min(100svh,900px);display:flex;flex-direction:column;overflow:hidden}
-.ph{position:absolute;inset:0;background:url(../img/foncier.webp) center 20%/cover;opacity:.2}
+.ph{position:absolute;inset:0;background:url(../img/hero.webp) center top/cover;opacity:.38}
 .ct{position:absolute;inset:-60px;width:calc(100% + 120px);height:calc(100% + 120px);animation:drift 18s ease-in-out infinite alternate}
 .hsp{position:relative;flex:none;height:76px}
 .hc{position:relative;flex:1;width:100%;display:flex;flex-direction:column;justify-content:flex-end;gap:26px;padding-bottom:44px}
